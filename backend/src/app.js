@@ -13,6 +13,9 @@ connectDB();
 
 app.use('/api/sales', salesRoutes);
 app.use('/api/customers', customerRoutes);
+app.get('/',(req,res)=>{
+  res.send("Working Fine");
+});
 
 const PORT = 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
