@@ -8,7 +8,7 @@ const app = express();
 
 // Correct CORS configuration
 const corsOptions = {
-    origin: 'https://data-visualization-web-app-three.vercel.app', // Remove the trailing slash
+    origin: 'https://data-visualization-web-app-three.vercel.app', 
     methods: 'GET,POST,PUT,DELETE',
     credentials: true
 };
