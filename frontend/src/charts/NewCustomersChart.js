@@ -28,7 +28,7 @@ const NewCustomersChart = ({ interval }) => {
 
     return (
         <div className="chart-wrapper">
-            <h2 className="chart-title">New Customers Added Over Time: By Monthly</h2>
+            <h2 className="chart-title">New Customers Added Over Time: By Month</h2>
             <ResponsiveContainer width="100%" height={400}>
                 <BarChart data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
